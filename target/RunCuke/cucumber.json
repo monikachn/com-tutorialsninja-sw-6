@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3235942900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify That Six Products Are Displayed On Page",
+        "description": "",
+        "id": "login-page-test;verify-that-six-products-are-displayed-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 68400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214071900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108708700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter standard_user username",
+            "match": {
+              "location": "LoginSteps.iEnterStandard_userUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76301400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter secret_sauce password",
+            "match": {
+              "location": "LoginSteps.iEnterSecret_saucePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116834300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on LOGIN button",
+            "match": {
+              "location": "LoginSteps.iClickOnLOGINButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49143100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Six products are displayed on page",
+            "match": {
+              "location": "LoginSteps.sixProductsAreDisplayedOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smoke"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "I am on login page",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "LogiPage.feature"
+  }
+]
